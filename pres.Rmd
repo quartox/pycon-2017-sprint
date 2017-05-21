@@ -9,8 +9,6 @@ output:
     center: true
 ---
 
-# Unnamed Machine Learning Reproducibility Project
-
 ## Building a Machine Learning Model
 
 - Easier than ever before
