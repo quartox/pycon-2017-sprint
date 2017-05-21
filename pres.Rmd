@@ -1,0 +1,64 @@
+---
+title: "Unnamed Machine Learning Reproducibility Project"
+author: Jesse Lord
+date: May 21, 2017
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    highlight: pygments
+    center: true
+---
+
+# Unnamed Machine Learning Reproducibility Project
+
+## Building a Machine Learning Model
+
+- Easier than ever before
+
+...but
+
+- Models not easily reproducible
+- Lots of repeated code
+    - Framework specific
+
+## Abstract Build Process
+
+Declarative vs Imperative
+
+- Allow configuration
+- Manager repeated processes
+    - Reading data
+    - Handling numeric vs categorical
+
+## Reproducible Models
+
+- Single blueprint file
+    - Data location
+    - Response, numeric and categorical predictors
+    - Hyperparameters
+- Reproducible
+    - Hash the data
+    - Conda environment file
+    - Check into git
+
+## Backend
+
+Dask and scikit-learn
+
+- Model computed local or on cluster
+- Switch from scikit-learn gbm to xgboost
+
+## Why Stop There?
+
+- Web UI to generate blueprint (like h2o or data robot)
+    - Select columns and move them to "numeric"
+    - Input hyperparameters
+- Real time bokeh error plot
+- Model performance plots
+
+- General enough for any model framework
+
+## Starting from Scratch
+
+- All ideas up for debate
+- Web or scientific stack welcome
